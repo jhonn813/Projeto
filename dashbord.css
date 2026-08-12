@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100vh;
+    height: 100vh;
+    background-color: rgb(11, 5, 34);
+    color: aliceblue;
+    margin-left:40px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.icone > i{
+    color: rgb(25, 156, 14);
+}
+
+
+
+.myChart{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: rgb(18, 7, 43);
+    margin-left: 100px;
+}
+
+.pessoas{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: rgb(18, 7, 43) ;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.cards{
+    height: 200px;
+    border-radius: 20px;
+    background-color: rgb(23, 6, 54);
+    margin-left: 100px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+
+}
+.lado{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav.menu-lateral{
+    width: 80px;
+    height: 100%;
+    background-color: rgb(37, 31, 73);
+    padding: 20px 0px 40px 1%;
+    box-shadow: 3px 0 0 white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 0.3s;
+    
+}
+.menu-lateral.btn-expandir{
+    width: 250px;
+}
+
+
+.btn-expandir{
+    width: 100%;
+    padding-left:10px ;
+}
+.btn-expandir > i{
+    font-size: 28px;
+    cursor:pointer;
+}
+ul{
+    height: 100%;
+    list-style-type: none;
+
+}
+ul li.intem-menu{
+    transition: 1.2s;
+}
+ul li.intem-menu:hover{
+    background: blue;
+    margin-left: 10px;
+
+}
+ul li.intem-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 35px 1% ;
+    display: flex;
+    margin-bottom: 8px;
+
+}
+ul li.intem-menu a  .txt-link{
+    margin-left: 30px;
+    
+}
+
+
+ul li.intem-menu a .icon> i {
+    font-size: 27px;
+    margin-left: -15px;
+    
+}
+ul li.intem-menu a .icon> i:hover{
+    background: blue;
+}
+
+.txt-link{
+    display: none;
+}
+
+.menu-lateral.btn-expandir.txt-link{
+    display: inline;
+}
+
+
+
